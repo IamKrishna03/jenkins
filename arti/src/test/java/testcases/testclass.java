@@ -13,6 +13,7 @@ public class testclass extends BaseClass {
 	
 	@Test
 	public void search() {
+		System.out.println("my test case");
 		hp = new home_page();
 		 hp.search();
 		 sp = hp.clickOnSubmit();
